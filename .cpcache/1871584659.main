@@ -1,7 +1,0 @@
--m
-clj-kondo.main
---lint
-src
-test
---fail-level
-error
