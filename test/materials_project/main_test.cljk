@@ -1,6 +1,6 @@
 (ns materials_project.main-test
   "Contract + behavioral test for the materials_project-compat L5 actor (cljc port).
-  Runs under babashka: `bb test`. Stronger than the py static contract test —
+  Runs under babashka: `kbb -M:test`. Stronger than the py static contract test —
   exercises CRUD / pagination / filtering / expansion / validation against the
   in-memory Datom-log store."
   (:require [clojure.test :refer [deftest is testing run-tests]]
